@@ -1,0 +1,15 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+#scroll-to-top {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+}
+
+#scroll-to-top.show {
+  display: block;
+}
